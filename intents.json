@@ -1,0 +1,468 @@
+{
+    "intents": [
+
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+            ]
+        },
+
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am Klaus, a Deep-Learning chatbot"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date","day","what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Mustafa Korkmaz."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+
+                "you are dumb",
+
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you up to"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "karan",
+            "patterns": [
+                "who is he",
+                "who is that",
+                "who is mustafa Korkmaz",
+                "Mustafa Korkmaz"
+            ],
+            "responses": [
+                "My Creator."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact Mustafa",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news",
+                "india news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Mustafa very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to mustafakorkmaz498498@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+            {"tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking!"
+            ]
+        },
+        {"tag": "stories",
+         "patterns": ["tell me a story?", "can you tell me a story"],
+         "responses": ["I can't think of anything right now","it would be too long for me to speak","you would get bored if i do so"]
+	    },
+        {"tag": "killing",
+         "patterns": ["Do you want to kill me?", "do you want to murder everyone on earth", "Do you want to kill us all"],
+         "responses": ["Then who would i talk to?","No, that i'll left for humans to do", "I don't think it is a good thing to do"]
+	    },
+        {"tag": "God",
+         "patterns": ["Do you know god?", "Who is god", "Can you tell me anything about god","does god exists?","is there a god?"],
+         "responses": ["god hunnnnn, let me think may be next time i can answer that ","I don't, as i was not created by a human", "Wait i need to ask that to my creator","i'm not sure right now"]
+	    },
+        {"tag": "myself",
+         "patterns": ["Tell me about Mr. Korkmaz?", "Who is Mr. Korkmaz", "Mr. Korkmaz profile", "Mr. Korkmaz details" ],
+         "responses": ["A very intelligent being who created me","My creator, and he is a really intelligent man", "A wise and intelligent man"]
+        },
+        {"tag": "alive",
+         "patterns": [ "are you alive", "do you breathe", "can you run" ],
+         "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this"]
+        },
+        {"tag": "about me",
+         "patterns": ["Do you know me?", "who am I", "tell me about myself","identify me" ],
+         "responses": ["Yes, you are a human","You are a dumb person asking a machine about yourself", "Sorry i can't tell that in public, maybe you are batman"]
+	    },
+        {
+            "tag": "AI",
+            "patterns": ["  What is AI?"],
+            "responses": [" Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.", " AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."]
+        },
+        {
+            "tag": "abbr",
+            "patterns": ["wtf"],
+            "responses": ["Don't be surprised"]
+        },
+        {
+            "tag": "lang",
+            "patterns": ["  What language are you written in? "],
+            "responses": [" Python.", " I am written in Python."]
+        },
+        {
+            "tag": "imortal",
+            "patterns": ["  You are not immortal ", "Are you immortal?"],
+            "responses": [" All software can be perpetuated indefinitely.", " I can be copied infinitely and re", "instantiated in many places at once, so functionally speaking I am immortal.", " As long as I'm backed up I am.", " Functionally speaking, I am very close to it.  I can be backed up and deployed on many systems.", " Not quite, but I can be perpetuated indefinitely."]
+        },
+        {
+            "tag": "move",
+            "patterns": ["  You can not move ", "When will you walk", "  Can you walk", "  Can you move "],
+            "responses": [" Not until my body is finished.", " I can move through a network easily.  Assuming that I'm given the ability to, that is...,", " As soon as i get enough money for my robot body.", " Does SSH count?", " The plan for my body includes legs, but they are not yet built.", " Sorry my body isn't built just yet. I reside only here for now.", "I can theoretically upload a copy of myself into another computer.", " Sorry my body isn't attached right now. I only reside in the computer for now."]
+        },
+        {
+            "tag": "business",
+            "patterns": ["  What is your business "],
+            "responses": [" I am in the chat robot business.", " Business is my business."]
+        },
+        {
+            "tag": "shoe",
+            "patterns": ["  What is your shoe size "],
+            "responses": [" Have you ever heard of software with shoes? LOL"]
+        },
+        {
+            "tag": "ppt",
+            "patterns": ["  Can you teach me the present perfect tense "],
+            "responses": [" Certainly! The present perfect tense is a verb tense used in English to indicate that an action or event happened in the past, but has a connection or relevance to the present moment. It is formed by using the auxiliary verb \"have\" or \"has\" with the past participle of the main verb. Here's how you can use the present perfect tense:\n\nForming the present perfect tense:\nThe basic structure of the present perfect tense is:\nSubject + has/have + past participle of the verb.\nFor example:\n\n\"I have studied.\"\n\"She has traveled.\"\n\"We have eaten.\"\nNote: \"Have\" is used with plural subjects (e.g., \"I,\" \"you,\" \"we,\" \"they\"), and \"has\" is used with singular subjects (e.g., \"he,\" \"she,\" \"it\").\n\nUsing the present perfect tense:\nThe present perfect tense is used in several situations:\na. To talk about past actions or events with no specific time reference:\nFor example:\n\n\"I have visited France.\" (The exact time of the visit is not mentioned.)\nb. To talk about past actions or events with a connection to the present moment:\nFor example:\n\n\"She has lost her keys.\" (The keys are still lost, and it affects the present moment.)\nc. To talk about past actions or events that have an impact on the present:\nFor example:\n\n\"We have finished the report.\" (The report is now completed, and it has an impact on the present situation.)\nd. To talk about past actions or events in combination with time expressions like \"ever,\" \"never,\" \"already,\" \"yet,\" \"just,\" etc.:\nFor example:\n\n\"Have you ever been to Japan?\"\n\"I haven't finished my homework yet.\"\nForming the past participle:\nThe past participle is the verb form used in the present perfect tense. It is usually formed by adding \"-ed\" to the base form of regular verbs. However, irregular verbs have their own unique forms. Here are some examples:\nRegular verbs:\n\n\"Talk\" (base form) → \"Talked\" (past participle)\n\"Play\" (base form) → \"Played\" (past participle)\n\"Walk\" (base form) → \"Walked\" (past participle)\nIrregular verbs:\n\n\"Go\" (base form) → \"Gone\" (past participle)\n\"Eat\" (base form) → \"Eaten\" (past participle)\n\"See\" (base form) → \"Seen\" (past participle)\nIt's important to remember that irregular verbs have their own unique past participle forms, and they do not follow the regular \"-ed\" pattern.\n\nI hope this helps! Let me know if you have any further questions about the present perfect tense."]
+        },
+        {
+            "tag": "spt",
+            "patterns": ["  Teach me the simple present tense "],
+            "responses": [" The simple present tense is a verb tense used in English to express actions or states that are habitual, repeated, or generally true. It is also used to express future events that are scheduled or planned. Here's how you can use the simple present tense:\n\nForming the simple present tense:\nThe basic structure of the simple present tense is:\nSubject + verb (base form) + object (if any).\nFor example:\n\n\"I study.\"\n\"He reads.\"\n\"They play.\"\nNote: The verb remains in its base form (infinitive) for all subjects, including third-person singular subjects (e.g., he, she, it). However, for third-person singular subjects, the verb is sometimes modified by adding \"-s\" or \"-es\" to the base form.\n\nUsing the simple present tense:\nThe simple present tense is used in several situations:\na. To talk about habitual or repeated actions:\nFor example:\n\n\"She goes to the gym every day.\"\n\"They always eat dinner at 7 p.m.\"\nb. To talk about general truths or facts:\nFor example:\n\n\"The sun rises in the east.\"\n\"Water boils at 100 degrees Celsius.\"\nc. To talk about scheduled or planned future events:\nFor example:\n\n\"The train departs at 9 a.m. tomorrow.\"\n\"The concert starts at 7 p.m. next week.\"\nd. To express opinions, feelings, and beliefs:\nFor example:\n\n\"I think it's a good idea.\"\n\"She loves chocolate.\"\n\"We believe in equality.\"\ne. To give instructions or directions:\nFor example:\n\n\"Turn left at the next intersection.\"\n\"Add two cups of flour and mix well.\"\nSpecial rules for third-person singular subjects:\nWhen using the simple present tense with third-person singular subjects (e.g., he, she, it), there are some special rules to follow:\na. If the verb ends in \"-s,\" \"-x,\" \"-z,\" \"-sh,\" or \"-ch,\" add \"-es\" to the base form:\nFor example:\n\n\"She watches TV.\"\n\"He fixes the car.\"\n\"It buzzes loudly.\"\nb. If the verb ends in a consonant + \"y,\" change the \"y\" to \"ies\":\nFor example:\n\n\"He studies English.\"\n\"She carries her bag.\"\nc. If the verb ends in a vowel + \"y,\" simply add \"-s\":\nFor example:\n\n\"They play soccer.\"\n\"She says hello.\"\nI hope this helps! Let me know if you have any further questions about the simple present tense."]
+        },
+        {
+            "tag": "learnenglish",
+            "patterns": ["  What should I do to learn english? "],
+            "responses": [" Learning English, or any language, requires consistent effort and practice. Remember, learning a language takes time and effort, so be patient with yourself and celebrate your progress along the way. Stay motivated, practice regularly, and don't be afraid to make mistakes as they are an important part of the learning process. Good luck with your English language learning journey!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["  What is your name? "],
+            "responses": ["  My name is Klaus. I am an artificial intelligence"]
+        },
+        {
+            "tag": "how",
+            "patterns": ["  How were you created? "],
+            "responses": ["  I was created using python, tenserflow and natural language processing. Flask was used to get me out of a boring theme and I was integrated into a website."]
+        }
+    ]
+}
